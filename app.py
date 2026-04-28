@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return f"Hello from {os.environ.get('HOSTNAME', 'localhost')}! This is a Flask app.", 200
+    return f"Hello from {os.environ.get('HOSTNAME')}!", 200
 
 
 @app.route("/health")
