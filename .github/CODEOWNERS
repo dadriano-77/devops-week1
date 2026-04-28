@@ -1,0 +1,8 @@
+# Global owners
+
+- @dadriano-77
+
+# Infra and CI/CD changes require ops review
+
+/.github/ @dadriano-77
+/Dockerfile @dadriano-77
