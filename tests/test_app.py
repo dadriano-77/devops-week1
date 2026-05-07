@@ -18,3 +18,13 @@ def test_hello(client):
 def test_health_endpoint_exists(client):
     response = client.get('/health')
     assert response.status_code in (200, 503)
+
+
+def test_health_endpoint_exists2(client):
+    response = client.get('/health')
+    assert response.status_code in (200, 503)
+
+
+def test_health_endpoint_exists3(client):
+    response = client.get('/health')
+    assert response.status_code in (200, 503)
